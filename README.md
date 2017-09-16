@@ -1,6 +1,4 @@
 # Mocha
-Repo for mocha unit test learning files
-
 Please follow the following steps to run the test
 
 ***
