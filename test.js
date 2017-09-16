@@ -47,9 +47,21 @@ describe('Array Test cases', function() {
         assert.equal(-1, arrayOfNumbers.indexOf(4));
       });
   
-      it('should return index when the value is not present', function() {
+      it('should return index when the value is  present', function() {
         assert.equal(0, arrayOfNumbers.indexOf(1));
       });
+
+      it.skip('sample test will not run', function() {
+        assert.equal(-1, arrayOfNumbers.indexOf(4));        
+      });
+
+      for (var index = 0; index < 1000; index++) {
+
+        it.skip('Loop Test for index'+index, function() {
+          
+        });
+        
+      }
   
     });
   });
