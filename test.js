@@ -55,7 +55,7 @@ describe('Array Test cases', function() {
         assert.equal(-1, arrayOfNumbers.indexOf(4));        
       });
 
-      for (var index = 0; index < 1000; index++) {
+      for (var index = 0; index < 1000; index++) {//to test the nyan reporter animation
 
         it.skip('Loop Test for index'+index, function() {
           
