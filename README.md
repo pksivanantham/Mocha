@@ -1,5 +1,5 @@
 # Mocha
-Please follow the following steps to run the test
+Please follow the steps to run the test
 
 ***
 
